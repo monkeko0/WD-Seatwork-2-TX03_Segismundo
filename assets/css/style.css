@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+
+    .kanit-thin {
+        font-family: "Kanit", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+      }
+      
+}
+
+body {
+    background-color: rgb(228, 227, 227);
+}
+
+.main-content {
+    min-height: 100vh;
+    width: 90%;
+    margin: 4rem auto;
+    background-color: rgb(160, 137, 34);
+    display: grid;
+    grid-template-columns: repeat(7, 1f);
+}
+
+.left-section {
+    grid-column: span 2;
+    height: 100%;
+    background-color: navy;
+    color: white;
+    font-size: medium;
+}
+
+.right-section {
+    padding: 1rem;
+    color: #ffffff;
+}
+
+.picture-boxes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.picture-box {
+    width: 200px;
+    height: 200px;
+    background-color: #d8d8d8; 
+    margin: 0 1rem;
+}
+
+h1 {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+h {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
